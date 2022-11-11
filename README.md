@@ -1,1 +1,1 @@
-# algorithms-course-princeton
+# Algorithms course by Princeton University
