@@ -1,0 +1,18 @@
+{
+  "name": "algorithms-course/part1",
+  "type": "project",
+  "description": "Algorithms course by Princeton University",
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Part1\\": "Part1/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  }
+}
