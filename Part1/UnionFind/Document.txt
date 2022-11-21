@@ -105,5 +105,7 @@ d) Quick Union Improvement - Weighted quick union + path compression
 - Weighted QU + PC reduces time from 30 years to 6 seconds for 10e9 unions with 10e9 objects
 
 
-
+Union-find applications
+- percolation, games, dynamic connectivity, least common ancestor, equivalence of finite state automata, Hoshen-Kopelman algorithm in pyhsics,
+Hinley-Milner polymorphic type inference, Kruskal's minimum spanning tree algorithm, compiling equivalence statements in Fortran...
 
