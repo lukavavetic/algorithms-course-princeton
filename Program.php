@@ -7,10 +7,14 @@ use Part1\UnionFind\QuickUnionUF;
 use Part1\UnionFind\WeightedQuickUnionUF;
 
 use Part1\AnalysisOfAlgorithms\ThreeSum;
+use Part1\AnalysisOfAlgorithms\BinarySearch;
+use Part1\AnalysisOfAlgorithms\ThreeSumFast;
 
 //QuickFindUF::main();
 //QuickUnionUF::main();
 //WeightedQuickUnionUF::main();;
 
 
-ThreeSum::main();
+//BinarySearch::main();
+//ThreeSum::main();
+ThreeSumFast::main();

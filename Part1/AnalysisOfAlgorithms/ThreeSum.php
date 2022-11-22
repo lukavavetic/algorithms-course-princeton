@@ -12,8 +12,8 @@ final class ThreeSum
         for ($i = 0; $i < $N; $i++) {
             for ($j = $i+1; $j < $N; $j++) {
                 for ($k = $j+1; $k < $N; $k++) {
-                    echo sprintf('Sum i: %d + j: %d + k: %d', $a[$i], $a[$j], $a[$k])."\n";
                     if ($a[$i] + $a[$j] + $a[$k] === 0) {
+                        echo sprintf('Sum i: %d + j: %d + k: %d', $a[$i], $a[$j], $a[$k])."\n";
                         $count++;
                     }
                 }
