@@ -112,19 +112,17 @@ class StackIterator implements \Iterator
 
     public function current(): string
     {
-        //var_dump(__METHOD__);
+        var_dump(__METHOD__);
 
         return (string) $this->current->getItem();
     }
 
     public function next(): void
     {
-        //var_dump(__METHOD__);
+        var_dump(__METHOD__);
 
         if ($this->current->hasNext()) {
-            $node = $this->current->getNext();
-
-            $this->current = $node;
+            $this->current = $this->current->getNext();
         } else {
             $this->current = null;
         }
@@ -132,21 +130,21 @@ class StackIterator implements \Iterator
 
     public function key(): mixed
     {
-        //var_dump(__METHOD__);
+        var_dump(__METHOD__);
 
         return null;
     }
 
     public function valid(): bool
     {
-        //var_dump(__METHOD__);
+        var_dump(__METHOD__);
 
         return $this->current !== null;
     }
 
     public function rewind(): void
     {
-        //var_dump(__METHOD__);
+        var_dump(__METHOD__);
 
         $this->current = $this->first;
     }
