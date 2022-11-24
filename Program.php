@@ -10,6 +10,8 @@ use Part1\AnalysisOfAlgorithms\ThreeSum;
 use Part1\AnalysisOfAlgorithms\BinarySearch;
 use Part1\AnalysisOfAlgorithms\ThreeSumFast;
 
+use Part1\StackQueueBag\LinkedStack;
+
 //QuickFindUF::main();
 //QuickUnionUF::main();
 //WeightedQuickUnionUF::main();;
@@ -17,4 +19,6 @@ use Part1\AnalysisOfAlgorithms\ThreeSumFast;
 
 //BinarySearch::main();
 //ThreeSum::main();
-ThreeSumFast::main();
+//ThreeSumFast::main();
+
+LinkedStack::main();
