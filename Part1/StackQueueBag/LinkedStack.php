@@ -93,8 +93,8 @@ final class LinkedStack
 
         //$stack->printItems();
 
-        foreach ($stack->iterator() as $item) {
-            var_dump($item);
+        foreach ($stack->iterator() as $key => $item) {
+            var_dump($key);
         }
     }
 }
@@ -131,7 +131,7 @@ class StackIterator implements \Iterator
     public function key(): mixed
     {
         var_dump(__METHOD__);
-
+        //add id to an object
         return null;
     }
 
@@ -148,7 +148,6 @@ class StackIterator implements \Iterator
 
         $this->current = $this->first;
     }
-
 }
 
 class Node

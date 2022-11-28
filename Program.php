@@ -11,6 +11,7 @@ use Part1\AnalysisOfAlgorithms\BinarySearch;
 use Part1\AnalysisOfAlgorithms\ThreeSumFast;
 
 use Part1\StackQueueBag\LinkedStack;
+use Part1\StackQueueBag\ResizingArrayStack;
 
 //QuickFindUF::main();
 //QuickUnionUF::main();
@@ -21,4 +22,5 @@ use Part1\StackQueueBag\LinkedStack;
 //ThreeSum::main();
 //ThreeSumFast::main();
 
-LinkedStack::main();
+//LinkedStack::main();
+ResizingArrayStack::main();
