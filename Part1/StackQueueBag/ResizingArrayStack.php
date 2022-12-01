@@ -65,6 +65,7 @@ class ResizingArrayStack
 
         $item = $this->a[$this->n - 1];
 
+        unset($this->a[$this->n - 1]);
         $this->n--;
 
         //shrink size of array if necessary
