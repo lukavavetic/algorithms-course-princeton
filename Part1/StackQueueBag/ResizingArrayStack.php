@@ -99,21 +99,6 @@ class ResizingArrayStack
     }
 }
 
-class Item implements \Stringable
-{
-    private string $name;
-
-    public function __construct(string $name)
-    {
-        $this->name = $name;
-    }
-
-    public function __toString(): string
-    {
-        return $this->name;
-    }
-}
-
 class ReverseArrayIterator implements \Iterator
 {
     private SplFixedArray $array;

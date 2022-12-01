@@ -9,9 +9,6 @@ final class LinkedStack
     private int $n; //size of the stack
     private ?Node $first; // top of stack
 
-    /**
-     * @param int $n
-     */
     public function __construct()
     {
         $this->first = null;
@@ -147,51 +144,5 @@ class StackIterator implements \Iterator
         var_dump(__METHOD__);
 
         $this->current = $this->first;
-    }
-}
-
-class Node
-{
-    private Item $item;
-    private ?Node $next = null;
-
-    public function hasNext(): bool
-    {
-        return $this->next !== null;
-    }
-
-    public function getItem(): Item
-    {
-        return $this->item;
-    }
-
-    public function setItem(Item $item): void
-    {
-        $this->item = $item;
-    }
-
-    public function getNext(): Node
-    {
-        return $this->next;
-    }
-
-    public function setNext(Node $next): void
-    {
-        $this->next = $next;
-    }
-}
-
-class Item implements \Stringable
-{
-    private string $name;
-
-    public function __construct(string $name)
-    {
-        $this->name = $name;
-    }
-
-    public function __toString(): string
-    {
-        return $this->name;
     }
 }

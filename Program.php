@@ -12,6 +12,7 @@ use Part1\AnalysisOfAlgorithms\ThreeSumFast;
 
 use Part1\StackQueueBag\LinkedStack;
 use Part1\StackQueueBag\ResizingArrayStack;
+use Part1\StackQueueBag\LinkedQueue;
 
 //QuickFindUF::main();
 //QuickUnionUF::main();
@@ -23,4 +24,5 @@ use Part1\StackQueueBag\ResizingArrayStack;
 //ThreeSumFast::main();
 
 //LinkedStack::main();
-ResizingArrayStack::main();
+//ResizingArrayStack::main();
+LinkedQueue::main();
