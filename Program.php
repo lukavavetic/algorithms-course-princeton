@@ -14,6 +14,7 @@ use Part1\StackQueueBag\LinkedStack;
 use Part1\StackQueueBag\ResizingArrayStack;
 use Part1\StackQueueBag\LinkedQueue;
 use Part1\StackQueueBag\ResizingArrayQueue;
+use Part1\StackQueueBag\LinkedBag;
 
 //QuickFindUF::main();
 //QuickUnionUF::main();
@@ -27,4 +28,5 @@ use Part1\StackQueueBag\ResizingArrayQueue;
 //LinkedStack::main();
 //ResizingArrayStack::main();
 //LinkedQueue::main();
-ResizingArrayQueue::main();
+//ResizingArrayQueue::main();
+LinkedBag::main();

@@ -29,7 +29,7 @@ class Node
         return $this->next;
     }
 
-    public function setNext(Node $next): void
+    public function setNext(?Node $next): void
     {
         $this->next = $next;
     }
