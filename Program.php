@@ -17,6 +17,9 @@ use Part1\StackQueueBag\ResizingArrayQueue;
 use Part1\StackQueueBag\LinkedBag;
 
 use Part1\Sorting\Selection;
+use Part1\Sorting\Insertion;
+use Part1\Sorting\InsertionX;
+use Part1\Sorting\BinaryInsertion;
 
 //QuickFindUF::main();
 //QuickUnionUF::main();
@@ -33,4 +36,7 @@ use Part1\Sorting\Selection;
 //ResizingArrayQueue::main();
 //LinkedBag::main();
 
-Selection::main();
+//Selection::main();
+//Insertion::main();
+//InsertionX::main();
+BinaryInsertion::main();

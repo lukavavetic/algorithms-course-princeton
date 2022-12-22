@@ -6,7 +6,7 @@ namespace Part1\Sorting;
 
 class Selection
 {
-    /** @param array<int,int> */
+    /** @param array<int, int> $list*/
     private static function sort(array $list): array
     {
         $n = count($list);
